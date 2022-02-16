@@ -1,0 +1,91 @@
+/* Atur Tampilan Menu*/
+.sticky-section{
+ overflow:hidden;
+ background-color:#09689E; 
+ margin-bottom:50px;
+ width:100%; 
+ color:white; 
+}
+
+nav a{
+  float:right;
+  text-decoration:none;
+  color:white;
+  font-size:15px; 
+  padding: 20px 30px; 
+  display:inline-block; 
+  transition: all 0.5s ease 0s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#logo{
+  font-size:25px;  
+  font-weight:bold;
+  float:left;
+  padding: 15px;
+}
+
+#logo{
+   margin-left:2%;  
+}
+nav{
+  margin-right:2%;
+}
+
+nav a:hover{
+  background-color:#002e5b; 
+  color:wheat; 
+}
+
+
+/*Atur tampilan Tombol*/
+fieldset
+		{
+			width: 400px; 
+			border-color: #ff7856; 
+			box-shadow: 2px 2px 4px #333; 
+		}
+
+label
+		{
+    		display: block;
+    		margin: 10px 0;
+		}
+
+label div
+		{
+    		display: inline-block;
+			text-align: left;
+    		width: 100px;
+		}
+		
+input[type=text], select 
+		{
+  			width: 100%;
+  			padding: 10px 18px;
+  			margin: 7px 0;
+			box-sizing: border-box;
+		}
+		
+input[type=submit],input[type=button] 
+		{
+        	background-color: #62529c;
+        	border: none;
+        	color: #fff;
+        	padding: 15px 30px;
+        	text-decoration: none;
+        	margin: 4px 2px;
+        	cursor: pointer;
+      	}
+		
+.center 
+		{
+    		 position: fixed;
+			 left: 50%;
+			 -webkit-transform: translate(-50%);
+    		 transform: translate(-50%);
+		}

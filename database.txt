@@ -1,0 +1,16 @@
+1. Buat database baru dengan nama "db_namasiswa" ( ganti dengan nama pendek masing-masing
+
+2. buat struktur tabel dengan desain sebagai berikut :
+--
+-- Struktur dari tabel `mahasiswa`
+--
+
+CREATE TABLE `mahasiswa` (
+  `nim` char(8) DEFAULT NULL,
+  `nama` varchar(100) DEFAULT NULL,
+  `fakultas` varchar(50) DEFAULT NULL,
+  `jurusan` varchar(50) DEFAULT NULL,
+  `uas` int(3) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+3. Tambahkan satu buah record ke dalam tabel ( data yang di isikan bebas )
